@@ -1,0 +1,92 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+}
+#logo{
+    display: flex;
+    width: 25%;
+    margin: 20px 0px 20px 100px;
+
+}
+.container #logo-name{
+    font-size: 2em;
+    margin-top: 15px;
+
+    padding: 2px;
+}
+#menu{
+    width: 60%;
+    min-width: 50%;
+    margin: 40px 50px 20px 0px;
+    position: sticky;
+    align-items: center;
+
+}
+.container ul{
+    display: flex;
+    width: 100%;
+}
+.container ul li {
+    list-style-type: none;
+    width: 14.28%;
+    text-align: center;
+
+}
+.container ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgba(128, 128, 128, 0.904);
+}
+
+
+.container ul li ul{
+    display: none;
+    background-color:rgba(240, 255, 255, 0.308);
+    position: absolute;
+    width: 100%;
+    z-index: 1000px;
+
+}
+.container>ul li:hover ul{
+    display: block;
+    width: 30%;
+
+}
+
+.container ul li:hover>ul li{
+    float: none;
+    text-align: left;
+    width: 100%;
+    margin: 8px 10px;
+
+}
+.container ul li:hover>ul li:hover{
+    background-color: rgba(81, 152, 155, 0.712);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.container ul li:hover>ul li a:hover{
+    display:block;
+    color: white;
+    padding: 10px;
+
+
+}
+#btn{
+    color: white;
+    background-color: rgba(172, 13, 13, 0.651);
+    position: absolute;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    box-shadow: 2px 1px 2px rgba(82, 12, 12, 0.527);
+    
+}

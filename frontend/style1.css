@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 33, 33);
+}
+form:not([class="email-submit"]){
+    
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: rgba(133, 155, 133, 0.452);
+}
+h1{
+    text-align: center;
+    margin: 0px auto;
+}
+.number{
+    font-size: 17px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    color: white;
+    background-color:rgba(236, 122, 230, 0.521);
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 10px;
+}
+fieldset{
+    border: none;
+    margin-bottom: 10px;
+
+}
+legend{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+label.light{
+    display: inline;
+}
+input:not([type='checkbox'], [type='radio'], [class="email-submit"]), textarea, select{
+    border: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: beige;
+
+}
+input[type='checkbox'], input[type='radio']{
+    margin: 10px;
+}
+
+button:not([class="email-submit"]){
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgba(4, 53, 4, 0.836);
+    border: 1 solid transparent;
+    border-color: rgba(32, 159, 197, 0.253);
+    box-shadow: 1px 1px 3px rgba(172, 255, 47, 0.315);
+
+}
+button:not([class="email-submit"]):hover{
+    
+    color: green;
+    background-color: white;
+    border-color: green;
+    transition: 0.3s;
+
+}
+
+/************************** Connexion ***********************/
+form.connexion{
+    
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 10px 20px;
+    background-color: rgba(133, 155, 133, 0.452);
+}
+
+p {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+

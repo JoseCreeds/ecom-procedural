@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: block;
+    text-decoration: none;
+    
+}
+
+.register-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 150px);
+    border-radius: 10px;
+
+}
+
+.register-box .register-box-insert{
+    position: relative;
+
+}
+
+.register-box .register-box-insert input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: 1px solid #4d2f2f;
+    border-radius: 7px;
+    opacity: 2px;
+    outline: none;
+    
+}

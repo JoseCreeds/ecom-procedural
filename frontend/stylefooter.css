@@ -1,0 +1,94 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(43, 39, 39, 0.795);
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+.container-newsletter{
+    width: 50%;
+    margin:0 auto;
+    padding: 50px;
+}
+#container-newsletter-email{
+    width: 30%;
+    text-align: left;
+    margin-top: 25px;
+}
+h2{
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.container-newsletter p{
+    width: 85%;
+    color: rgba(66, 65, 65, 0.514);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.container-newsletter form{
+    display: flex;
+}
+.container-newsletter input{
+    height: auto;
+    width:60%;
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.527);
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+.container-newsletter .email-submit button{
+    width: 30%;
+    padding: 15px;
+    margin: auto;
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(15, 70, 92, 0.822);
+    border: 0.1 solid transparent;
+    border-radius:10px ;
+}
+
+.container-newsletter .email-submit button:hover{
+    box-shadow: -1px 7px 0.5px rgba(0, 0, 0, 0.048); 
+}
+.container-newsletter img{
+    height: 350px;
+    width: auto;
+    float: right;
+    margin-top: -40px;
+    
+}
+footer{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    border-top: 1 solid black;
+}
+footer div{
+    display: block;
+    width: 25%;
+
+}
+footer div ul{
+    list-style-type: none;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.521);
+    line-height: 25px;
+    
+
+}
+.copyright p{
+    text-align: center;
+    letter-spacing: 3px;
+    size: 16px;
+    margin-top: 25px;
+}
